@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SWG Task</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="document">Document</string>
+    <string name="select_source">Select Source</string>
+    <string name="cancel">Cancel</string>
+    <string name="swg_task">SWG</string>
+</resources>

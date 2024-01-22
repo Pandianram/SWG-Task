@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/ll_camera_gallery"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <ImageView
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_camera"
+            android:id="@+id/iv_camera_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:textAllCaps="true"
+            android:id="@+id/tv_upload_image"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Upload Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
